@@ -1,7 +1,10 @@
 import tkinter as tk
 import numpy as np
 import cv2
-from PIL import ImageGrab
+#from PIL import ImageGrab
+#sudo apt-get install python-pil
+#pip install pyscreenshot
+import pyscreenshot as ImageGrab
 from PyQt5 import QtWidgets, QtCore, QtGui
 import SnippingMenu
 from PyQt5.QtCore import Qt
